@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <install4j version="6.1.4" transformSequenceNumber="5">
   <directoryPresets config="../../target/distribution-base/lib" />
-  <application name="Spark" distributionSourceDir="" applicationId="3057-7228-2063-7466" mediaDir="../../target/" mediaFilePattern="spark_${compiler:sys.version}" compression="9" lzmaCompression="true" pack200Compression="false" excludeSignedFromPacking="true" commonExternalFiles="true" createMd5Sums="true" shrinkRuntime="true" shortName="Spark" publisher="Ignite Realtime" publisherWeb="http://www.igniterealtime.org" version="3.0.0" allPathsRelative="true" backupOnSave="false" autoSave="false" convertDotsToUnderscores="true" macSignature="????" macVolumeId="ccfadd9e467a1ebd" javaMinVersion="1.8" javaMaxVersion="" allowBetaVM="false" jdkMode="runtimeJre" jdkName="">
+  <application name="HosinoxChat" distributionSourceDir="" applicationId="3057-7228-2063-7466" mediaDir="../../target/" mediaFilePattern="spark_${compiler:sys.version}" compression="9" lzmaCompression="true" pack200Compression="false" excludeSignedFromPacking="true" commonExternalFiles="true" createMd5Sums="true" shrinkRuntime="true" shortName="HosinoxChat" publisher="Ignite Realtime" publisherWeb="http://www.igniterealtime.org" version="3.0.0" allPathsRelative="true" backupOnSave="false" autoSave="false" convertDotsToUnderscores="true" macSignature="????" macVolumeId="ccfadd9e467a1ebd" javaMinVersion="1.8" javaMaxVersion="" allowBetaVM="false" jdkMode="runtimeJre" jdkName="">
     <languages skipLanguageSelection="false" languageSelectionInPrincipalLanguage="false">
       <principalLanguage id="en" customLocalizationFile="" />
       <additionalLanguages />
@@ -29,8 +29,8 @@
     <components />
   </files>
   <launchers>
-    <launcher name="Spark" id="4" customizedId="" external="false" excludeFromMenu="false" unixMode="755" unixAutoStart="true" menuName="" icnsFile="images/message.icns" customMacBundleIdentifier="false" macBundleIdentifier="" swtApp="false" fileset="" macBundleBinary="JavaApplicationStub" addMacEntitlements="false" macEntitlementsFile="" useCustomMacosExecutableName="false" customMacosExecutableName="" useJavaMinVersionOverride="false" javaMinVersionOverride="" useJavaMaxVersionOverride="false" javaMaxVersionOverride="">
-      <executable name="Spark" type="1" iconSet="true" iconFile="images/spark.ico" executableDir="." redirectStderr="true" stderrFile="logs/error.log" stderrMode="overwrite" redirectStdout="true" stdoutFile="logs/output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="communicator" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" singleInstanceActivate="true" dpiAware="false">
+    <launcher name="HosinoxChat" id="4" customizedId="" external="false" excludeFromMenu="false" unixMode="755" unixAutoStart="true" menuName="" icnsFile="images/message.icns" customMacBundleIdentifier="false" macBundleIdentifier="" swtApp="false" fileset="" macBundleBinary="JavaApplicationStub" addMacEntitlements="false" macEntitlementsFile="" useCustomMacosExecutableName="false" customMacosExecutableName="" useJavaMinVersionOverride="false" javaMinVersionOverride="" useJavaMaxVersionOverride="false" javaMaxVersionOverride="">
+      <executable name="HosinoxChat" type="1" iconSet="true" iconFile="images/icone.ico" executableDir="." redirectStderr="true" stderrFile="logs/error.log" stderrMode="overwrite" redirectStdout="true" stdoutFile="logs/output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="communicator" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" singleInstanceActivate="true" dpiAware="false">
         <versionInfo include="true" fileVersion="" fileDescription="${compiler:sys.shortName}" legalCopyright="${compiler:sys.publisher}" internalName="${compiler:sys.shortName}" productName="" />
       </executable>
       <splashScreen show="false" width="0" height="0" bitmapFile="" windowsNative="false" textOverlay="false">
@@ -112,7 +112,7 @@
       <customAttributes />
     </autoUpdate>
     <applications>
-      <application name="" id="installer" customizedId="" beanClass="com.install4j.runtime.beans.applications.InstallerApplication" enabled="true" commentSet="false" comment="" actionElevationType="none" fileset="" customIcnsFile="images/message.icns" customIcoFile="images/spark.ico" macEntitlementsFile="" automaticLauncherIntegration="false" launchMode="startupFirstWindow" launchInNewProcess="false" launchSchedule="updateSchedule" allLaunchers="true">
+      <application name="" id="installer" customizedId="" beanClass="com.install4j.runtime.beans.applications.InstallerApplication" enabled="true" commentSet="false" comment="" actionElevationType="none" fileset="" customIcnsFile="images/message.icns" customIcoFile="images/icone.ico" macEntitlementsFile="" automaticLauncherIntegration="false" launchMode="startupFirstWindow" launchInNewProcess="false" launchSchedule="updateSchedule" allLaunchers="true">
         <serializedBean>
           <java class="java.beans.XMLDecoder">
             <object class="com.install4j.runtime.beans.applications.InstallerApplication" id="InstallerApplication0">
@@ -429,7 +429,7 @@
           </screen>
         </screens>
       </application>
-      <application name="" id="uninstaller" customizedId="" beanClass="com.install4j.runtime.beans.applications.UninstallerApplication" enabled="true" commentSet="false" comment="" actionElevationType="none" fileset="" customIcnsFile="images/message.icns" customIcoFile="images/spark.ico" macEntitlementsFile="" automaticLauncherIntegration="false" launchMode="startupFirstWindow" launchInNewProcess="false" launchSchedule="updateSchedule" allLaunchers="true">
+      <application name="" id="uninstaller" customizedId="" beanClass="com.install4j.runtime.beans.applications.UninstallerApplication" enabled="true" commentSet="false" comment="" actionElevationType="none" fileset="" customIcnsFile="images/message.icns" customIcoFile="images/icone.ico" macEntitlementsFile="" automaticLauncherIntegration="false" launchMode="startupFirstWindow" launchInNewProcess="false" launchSchedule="updateSchedule" allLaunchers="true">
         <serializedBean>
           <java class="java.beans.XMLDecoder">
             <object class="com.install4j.runtime.beans.applications.UninstallerApplication" id="UninstallerApplication0">

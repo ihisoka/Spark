@@ -194,8 +194,7 @@ public final class Spark {
 
     // Setup the look and feel of this application.
     static {
-        com.install4j.api.launcher.StartupNotification.registerStartupListener(new SparkStartupListener());
-    }
+     }
 
     /**
      * Return if we are running on windows.
